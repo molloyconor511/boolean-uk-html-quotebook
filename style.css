@@ -1,0 +1,79 @@
+* {
+    margin: 1rem;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+.container {
+    display: grid;
+    grid-template:
+    "quotes-1"3fr
+    "premium"4fr
+    "quotes-2"3fr/
+    1fr;  
+    gap: 2rem;
+    line-height: 1.5;
+}
+
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: greenyellow;
+    background-color: blue;
+    text-align: center;
+}
+
+.premium{
+  
+    margin-bottom: 2rem;
+    border: 2rem floralwhite inset;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+    font-size: 2rem;
+    
+}
+.quotes-1 {
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: bisque;
+    color: darkmagenta;   
+    font-style: normal;
+    text-align: center;
+}
+.quotes-2 {
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: bisque;
+    color: darkmagenta;   
+    
+    
+}
+ul {
+    list-style: none;
+}
+li {
+    font-size: 1.5rem;
+}
+.navigation {
+    background-color: white;
+    color: red;
+    text-decoration-line: none; 
+    display: grid;
+    place-content: center;     
+}
+.discount {
+    color: blueviolet;
+    font-size: larger;
+}
+.reflect, .comedy {
+    color: orangered;
+    text-align: center;
+    font-size: 2rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.sale {
+    color: red;
+}
